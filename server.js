@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 
-const authToken = '692730cf-c046-479b-aa7a-f43253b956a8';
+const authToken = 'caae99c1-4c8a-4e68-b568-c932dedd0aeb';
 
 app.get('/api/places', async (req, res) => {
     try {
